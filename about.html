@@ -8,10 +8,11 @@
     <title>Luis Hernandez</title>
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+
 </head>
 
-<body>
-
+<body class="">
     <div class="relative min-h-screen md:flex">
 
         <!-- mobile menu bar -->
@@ -48,23 +49,86 @@
                     class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">About</a>
                 <a href="./projects.html"
                     class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">Projects</a>
-              
+                <!-- <a href="" class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">Contact
+                    Me</a> -->
             </nav>
         </div>
 
         <!-- content -->
         <div class="flex-1 pic p-10 text-2xl font-bold  text-center text-white ">
-            <h1 class=" py-10 text-5xl">Welcome! This is my website</h1>
+            <h1 class="  text-5xl text-left">About Me</h1>
+            <hr>
+            <section>
+                <img class=" h-72 w-64 float-left my-10 mr-4" src="./Assets/imgs/photo.jpg" alt="">
+                <p class="text-xl text-left py-24">Developer with 3 years of management and manufacturing assembly
+                    experience.
+                    With a recently acquired certificate in Full Stack Web Development from the University of Central
+                    my work on. Looking to collaborate within a team that fosters creativeness, respect, and growth.</p>
 
+                    <div class="text-left -mt-10">
+                        <h1 class="">Contact me:</h1>
+                        <a href="https://www.linkedin.com/in/luis-hernandez-1a55811b4/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/LuisM-Hernandez" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="mailto:m.luishernandez@outlook.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
+                    </div>
+
+            </section>
+
+            <section class="mt-40 ">
+                <h1 class="text-5xl text-left ">Skills</h1>
+                <hr>
+
+                <div class="space-x-8">
+
+                    <div class="border-8 rounded overflow-auto mt-8 border-gray-500 bg-gray-500 ">
+                        <div class="text-left">
+                            <div class="float-left mr-8">
+                                <h1 class="text-3xl font-extrabold">Frontend Frameworks:</h1>
+                                <img class="frameworks" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="">
+                                <img class="frameworks" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="">
+                                <img class="frameworks" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="">
+                                <img class="frameworks" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg" alt="">
+                                <img class="frameworks" src="https://www.vectorlogo.zone/logos/jsfoundation/jsfoundation-ar21.svg" alt="">
+                                <img class="frameworks" src="https://www.vectorlogo.zone/logos/netlifyapp_watercss/netlifyapp_watercss-ar21.svg" alt="">
+                            </div>
+                            
+                            <div class="float-left mr-8">
+                                <h1 class="text-3xl font-extrabold">Backend Frameworks:</h1>
+
+                                <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="">
+                                <img src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg" alt="">
+                                <img src="https://www.vectorlogo.zone/logos/jquery/jquery-ar21.svg" alt="">
+                                <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" alt="">
+                                <img src="https://www.vectorlogo.zone/logos/javascript/javascript-horizontal.svg" alt="">
+                                <img src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" alt="">
+
+                            </div>
+
+                            <div class="">
+                                <h1 class="text-3xl font-extrabold">Database:</h1>
+                                <img src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg" alt="">
+                                <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="">
+                            </div>
+
+                         
+
+
+
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+
+            </section>
 
         </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
-            integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="./Assets/js/index.js"></script>
+    </div>
 
 
+    <script src="./Assets/js/index.js"></script>
 </body>
 
 </html>
