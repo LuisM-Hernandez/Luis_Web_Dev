@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
 
     <div class="relative min-h-screen md:flex">
@@ -40,8 +42,10 @@
             </a>
             <!-- nav -->
             <nav>
-                <a href="./index.html" class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">Home</a>
-                <a href="./about.html" class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">About</a>
+                <a href="./index.html"
+                    class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">Home</a>
+                <a href="./about.html"
+                    class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">About</a>
                 <a href="./projects.html"
                     class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">Projects</a>
                 <!-- <a href="" class="block py-2.5 px-4 rounded duration-200 hover:bg-green-400 hover:text-white">Contact
@@ -51,15 +55,93 @@
 
         <!-- content -->
         <div class="flex-1 pic p-10 text-2xl font-bold  text-center text-white ">
-            <h1 class=" py-10 text-5xl">Welcome! This is my website</h1>
-     
+            <h1 class="text-5xl text-left ">Projects</h1>
+            <hr>
 
-    </div>
+            <div class=" project-1 ">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <div>
+                    <h1 class="my-10 text-left underline">The Green Thumb</h1>
+                </div>
+
+                <div class="md:flex">
+                    <img class="h-72 w-80 mr-8" src="https://media.giphy.com/media/TlGLPCAX4SBOBSwmOd/giphy.gif" alt="">
+                    <p class="my-10  text-left ">An API and mySQL database driven application designed to find the best
+                        plant for each user. </p>
+                </div>
+
+                <div>
+                    <a href="https://github.com/emmabauta/theGreenThumb" target="_blank"
+                        class="mt-2 float-left border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Repo</a>
+                    <a href="https://github.com/emmabauta/theGreenThumb" target="_blank"
+                        class="mt-2 mx-2 float-left pl-4 border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Deployed</a>
+                </div>
+            </div>
+
+            <div class="project-2 mt-52 ">
+                <div>
+                    <h1 class="my-10 text-left underline">React Employee Directory</h1>
+                </div>
+
+                <div class="md:flex">
+                    <img class="h-72 w-80 mr-8" src="https://media.giphy.com/media/qbxz8RYWkmiexz2Eqm/giphy.gif" alt="">
+                    <p class="my-10  text-left"> This react application assist the user by filtering thorugh a list.
+                        Using the search bar the list can be filtered by name, email and phone number.</p>
+
+                </div>
+                <div>
+                    <a href="https://github.com/LuisM-Hernandez/react_employee_directory" target="_blank"
+                        class="mt-2 float-left border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Repo</a>
+                    <a href="https://luism-hernandez.github.io/react_employee_directory/" target="_blank"
+                        class="mt-2 mx-2 float-left pl-4 border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Deployed</a>
+                </div>
+            </div>
+            <div class="project-3 mt-52 ">
+                <div>
+                    <h1 class="my-10 text-left underline">Day Planner</h1>
+                </div>
+
+                <div class="md:flex">
+                    <img class="h-72 w-80 mr-8" src="https://media.giphy.com/media/LkZl3KVXpHTTBhbyeR/giphy.gif" alt="">
+                    <p class="my-10  text-left ">A business hours day planner that takes the users input and
+                        stores it on the local storage. Built in with moments.js</p>
+                </div>
+
+                <div>
+                    <a href="https://github.com/LuisM-Hernandez/day_planner" target="_blank"
+                        class="mt-2 float-left border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Repo</a>
+                    <a href="https://luism-hernandez.github.io/day_planner/" target="_blank"
+                        class="mt-2 mx-2 float-left pl-4 border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Deployed</a>
+                </div>
+            </div>
+            <div class="project-4 mt-52 ">
+                <div>
+                    <h1 class="my-10 text-left underline">Fitness Tracker</h1>
+                </div>
+
+                <div class="md:flex">
+                    <img class="h-72 w-80 mr-8" src="https://media.giphy.com/media/ScPQnaE3YXJI9XTSuS/giphy.gif" alt="">
+                    <p class="my-10  text-left ">Fitness Tracker app let the user log exercises for the day and
+                        categorize them by cardio or resistance.</p>
+                </div>
+
+                <div>
+                    <a href="https://github.com/LuisM-Hernandez/fitness_tracker" target="_blank"
+                        class="mt-2 float-left border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Repo</a>
+                    <a href="https://mighty-hamlet-70481.herokuapp.com/?id=602dc132de63870015eed262" target="_blank"
+                        class="mt-2 mx-2 float-left pl-4 border rounded-full py-3 px-6 bg-white text-black hover:bg-gray-300">Deployed</a>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+            integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <script src="./Assets/js/index.js"></script>
-  
-    
+
+
 </body>
+
 </html>
