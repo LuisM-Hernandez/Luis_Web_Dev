@@ -1,0 +1,22 @@
+{
+  "name": "luis_web_dev",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisM-Hernandez/Luis_Web_Dev.git"
+  },
+  "author": "Luis Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisM-Hernandez/Luis_Web_Dev/issues"
+  },
+  "homepage": "https://github.com/LuisM-Hernandez/Luis_Web_Dev",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
