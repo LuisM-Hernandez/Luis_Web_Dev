@@ -2,7 +2,7 @@
   "name": "luis_web_dev",
   "version": "1.0.0",
   "description": "Portfolio",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss build  ./src/styles.css -o ./public/styles.css"
     
